@@ -1,0 +1,1763 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project>
+  <fileVersion>
+    <major>4</major>
+    <minor>6</minor>
+    <build>0</build>
+  </fileVersion>
+  <title>New Project</title>
+  <author>rsholmes</author>
+  <width value="29.0" unit="cm"/>
+  <height value="21.0" unit="cm"/>
+  <gridSpacing value="0.05" unit="in"/>
+  <dotSpacing>1</dotSpacing>
+  <components>
+    <diylc.boards.PerfBoard>
+      <name>Board1</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="8.15" y="2.85"/>
+        <point x="4.95" y="4.75"/>
+      </controlPoints>
+      <firstPoint x="4.95" y="2.85"/>
+      <secondPoint x="8.15" y="4.75"/>
+      <boardColor hex="f8ebb3"/>
+      <borderColor hex="ada47d"/>
+      <coordinateColor hex="b6b6b6"/>
+      <xType>Numbers</xType>
+      <coordinateOrigin>Top_Left</coordinateOrigin>
+      <coordinateDisplay>One_Side</coordinateDisplay>
+      <yType>Letters</yType>
+      <mode>TwoPoints</mode>
+      <spacing value="0.1" unit="in"/>
+      <padColor hex="da8a67"/>
+    </diylc.boards.PerfBoard>
+    <diylc.boards.PerfBoard>
+      <name>Board2</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="8.15" y="3.75"/>
+        <point x="7.85" y="3.55"/>
+      </controlPoints>
+      <firstPoint x="7.85" y="3.55"/>
+      <secondPoint x="8.15" y="3.75"/>
+      <boardColor hex="f8ebb3"/>
+      <borderColor hex="ada47d"/>
+      <coordinateColor hex="b6b6b6"/>
+      <xType>Numbers</xType>
+      <coordinateOrigin>Top_Left</coordinateOrigin>
+      <coordinateDisplay>One_Side</coordinateDisplay>
+      <yType>Letters</yType>
+      <mode>TwoPoints</mode>
+      <spacing value="0.1" unit="in"/>
+      <padColor hex="da8a67"/>
+    </diylc.boards.PerfBoard>
+    <diylc.boards.PerfBoard>
+      <name>Board3</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="7.75" y="3.75"/>
+        <point x="7.45" y="3.55"/>
+      </controlPoints>
+      <firstPoint x="7.45" y="3.55"/>
+      <secondPoint x="7.75" y="3.75"/>
+      <boardColor hex="f8ebb3"/>
+      <borderColor hex="ada47d"/>
+      <coordinateColor hex="b6b6b6"/>
+      <xType>Numbers</xType>
+      <coordinateOrigin>Top_Left</coordinateOrigin>
+      <coordinateDisplay>One_Side</coordinateDisplay>
+      <yType>Letters</yType>
+      <mode>TwoPoints</mode>
+      <spacing value="0.1" unit="in"/>
+      <padColor hex="da8a67"/>
+    </diylc.boards.PerfBoard>
+    <diylc.boards.PerfBoard>
+      <name>Board4</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="7.85" y="3.85"/>
+        <point x="8.15" y="4.05"/>
+      </controlPoints>
+      <firstPoint x="7.85" y="3.85"/>
+      <secondPoint x="8.15" y="4.05"/>
+      <boardColor hex="f8ebb3"/>
+      <borderColor hex="ada47d"/>
+      <coordinateColor hex="b6b6b6"/>
+      <xType>Numbers</xType>
+      <coordinateOrigin>Top_Left</coordinateOrigin>
+      <coordinateDisplay>One_Side</coordinateDisplay>
+      <yType>Letters</yType>
+      <mode>TwoPoints</mode>
+      <spacing value="0.1" unit="in"/>
+      <padColor hex="da8a67"/>
+    </diylc.boards.PerfBoard>
+    <diylc.boards.PerfBoard>
+      <name>Board5</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="7.45" y="3.85"/>
+        <point x="7.75" y="4.05"/>
+      </controlPoints>
+      <firstPoint x="7.45" y="3.85"/>
+      <secondPoint x="7.75" y="4.05"/>
+      <boardColor hex="f8ebb3"/>
+      <borderColor hex="ada47d"/>
+      <coordinateColor hex="b6b6b6"/>
+      <xType>Numbers</xType>
+      <coordinateOrigin>Top_Left</coordinateOrigin>
+      <coordinateDisplay>One_Side</coordinateDisplay>
+      <yType>Letters</yType>
+      <mode>TwoPoints</mode>
+      <spacing value="0.1" unit="in"/>
+      <padColor hex="da8a67"/>
+    </diylc.boards.PerfBoard>
+    <diylc.boards.PerfBoard>
+      <name>Board6</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="6.95" y="3.85"/>
+        <point x="7.35" y="4.05"/>
+      </controlPoints>
+      <firstPoint x="6.95" y="3.85"/>
+      <secondPoint x="7.35" y="4.05"/>
+      <boardColor hex="f8ebb3"/>
+      <borderColor hex="ada47d"/>
+      <coordinateColor hex="b6b6b6"/>
+      <xType>Numbers</xType>
+      <coordinateOrigin>Top_Left</coordinateOrigin>
+      <coordinateDisplay>One_Side</coordinateDisplay>
+      <yType>Letters</yType>
+      <mode>TwoPoints</mode>
+      <spacing value="0.1" unit="in"/>
+      <padColor hex="da8a67"/>
+    </diylc.boards.PerfBoard>
+    <diylc.boards.PerfBoard>
+      <name>Board7</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="7.35" y="3.75"/>
+        <point x="6.95" y="3.55"/>
+      </controlPoints>
+      <firstPoint x="6.95" y="3.55"/>
+      <secondPoint x="7.35" y="3.75"/>
+      <boardColor hex="f8ebb3"/>
+      <borderColor hex="ada47d"/>
+      <coordinateColor hex="b6b6b6"/>
+      <xType>Numbers</xType>
+      <coordinateOrigin>Top_Left</coordinateOrigin>
+      <coordinateDisplay>One_Side</coordinateDisplay>
+      <yType>Letters</yType>
+      <mode>TwoPoints</mode>
+      <spacing value="0.1" unit="in"/>
+      <padColor hex="da8a67"/>
+    </diylc.boards.PerfBoard>
+    <diylc.semiconductors.TransistorTO92>
+      <name>U3</name>
+      <alpha>100</alpha>
+      <value>L78L09</value>
+      <orientation>_270</orientation>
+      <controlPoints>
+        <point x="5.05" y="3.55"/>
+        <point x="5.15" y="3.55"/>
+        <point x="5.25" y="3.55"/>
+      </controlPoints>
+      <bodyColor hex="808080"/>
+      <borderColor hex="595959"/>
+      <labelColor hex="000000"/>
+      <display>NAME</display>
+      <folded>false</folded>
+      <pinSpacing value="0.1" unit="in"/>
+    </diylc.semiconductors.TransistorTO92>
+    <diylc.shapes.Rectangle>
+      <name>RECT1</name>
+      <alpha>0</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="8.2" y="2.9"/>
+        <point x="4.85" y="3.0"/>
+      </controlPoints>
+      <firstPoint x="4.85" y="2.9"/>
+      <secondPoint x="8.2" y="3.0"/>
+      <color hex="ffffff"/>
+      <borderColor hex="00ff00"/>
+      <borderThickness value="0.5" unit="mm"/>
+      <edgeRadius value="0.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT2</name>
+      <alpha>0</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="8.2" y="4.6"/>
+        <point x="4.85" y="4.7"/>
+      </controlPoints>
+      <firstPoint x="4.85" y="4.6"/>
+      <secondPoint x="8.2" y="4.7"/>
+      <color hex="ffffff"/>
+      <borderColor hex="00ff00"/>
+      <borderThickness value="0.5" unit="mm"/>
+      <edgeRadius value="0.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT3</name>
+      <alpha>0</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="8.2" y="3.0"/>
+        <point x="4.85" y="3.1"/>
+      </controlPoints>
+      <firstPoint x="4.85" y="3.0"/>
+      <secondPoint x="8.2" y="3.1"/>
+      <color hex="ffffff"/>
+      <borderColor hex="ff0000"/>
+      <borderThickness value="0.5" unit="mm"/>
+      <edgeRadius value="0.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT4</name>
+      <alpha>0</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="8.2" y="4.5"/>
+        <point x="4.85" y="4.6"/>
+      </controlPoints>
+      <firstPoint x="4.85" y="4.5"/>
+      <secondPoint x="8.2" y="4.6"/>
+      <color hex="ffffff"/>
+      <borderColor hex="ff0000"/>
+      <borderThickness value="0.5" unit="mm"/>
+      <edgeRadius value="0.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT5</name>
+      <alpha>0</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="8.2" y="3.1"/>
+        <point x="4.85" y="3.2"/>
+      </controlPoints>
+      <firstPoint x="4.85" y="3.1"/>
+      <secondPoint x="8.2" y="3.2"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.5" unit="mm"/>
+      <edgeRadius value="0.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT6</name>
+      <alpha>0</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="8.2" y="4.4"/>
+        <point x="4.85" y="4.5"/>
+      </controlPoints>
+      <firstPoint x="4.85" y="4.4"/>
+      <secondPoint x="8.2" y="4.5"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.5" unit="mm"/>
+      <edgeRadius value="0.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT7</name>
+      <alpha>0</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="8.2" y="3.7"/>
+        <point x="4.85" y="3.8"/>
+      </controlPoints>
+      <firstPoint x="4.85" y="3.7"/>
+      <secondPoint x="8.2" y="3.8"/>
+      <color hex="ffffff"/>
+      <borderColor hex="0000ff"/>
+      <borderThickness value="0.5" unit="mm"/>
+      <edgeRadius value="0.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT8</name>
+      <alpha>0</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="8.2" y="3.8"/>
+        <point x="4.85" y="3.9"/>
+      </controlPoints>
+      <firstPoint x="4.85" y="3.8"/>
+      <secondPoint x="8.2" y="3.9"/>
+      <color hex="ffffff"/>
+      <borderColor hex="ff00ff"/>
+      <borderThickness value="0.5" unit="mm"/>
+      <edgeRadius value="0.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.semiconductors.DIL__IC>
+      <name>U1</name>
+      <alpha>127</alpha>
+      <value>Tl074</value>
+      <orientation>_90</orientation>
+      <pinCount>_14</pinCount>
+      <pinSpacing value="0.1" unit="in"/>
+      <rowSpacing value="0.3" unit="in"/>
+      <controlPoints>
+        <point x="6.55" y="3.65"/>
+        <point x="6.45" y="3.65"/>
+        <point x="6.35" y="3.65"/>
+        <point x="6.25" y="3.65"/>
+        <point x="6.15" y="3.65"/>
+        <point x="6.05" y="3.65"/>
+        <point x="5.95" y="3.65"/>
+        <point x="6.55" y="3.95"/>
+        <point x="6.45" y="3.95"/>
+        <point x="6.35" y="3.95"/>
+        <point x="6.25" y="3.95"/>
+        <point x="6.15" y="3.95"/>
+        <point x="6.05" y="3.95"/>
+        <point x="5.95" y="3.95"/>
+      </controlPoints>
+      <display>NAME</display>
+      <bodyColor hex="808080"/>
+      <borderColor hex="595959"/>
+      <labelColor hex="ffffff"/>
+      <indentColor hex="595959"/>
+      <displayNumbers>NO</displayNumbers>
+    </diylc.semiconductors.DIL__IC>
+    <diylc.connectivity.Jumper>
+      <name>J1</name>
+      <alpha>127</alpha>
+      <points>
+        <point x="6.25" y="3.25"/>
+        <point x="6.25" y="3.05"/>
+        <point x="6.25" y="3.15"/>
+      </points>
+      <bodyColor hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="ff0000"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
+      <style>SOLID</style>
+    </diylc.connectivity.Jumper>
+    <diylc.connectivity.Jumper>
+      <name>J2</name>
+      <alpha>127</alpha>
+      <points>
+        <point x="6.25" y="4.65"/>
+        <point x="6.25" y="4.35"/>
+        <point x="6.25" y="4.5"/>
+      </points>
+      <bodyColor hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="00ff00"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
+      <style>SOLID</style>
+    </diylc.connectivity.Jumper>
+    <diylc.passive.RadialCeramicDiskCapacitor>
+      <name>C3</name>
+      <alpha>127</alpha>
+      <length value="0.25" unit="in"/>
+      <width value="0.125" unit="in"/>
+      <points>
+        <point x="6.35" y="3.15"/>
+        <point x="6.25" y="3.35"/>
+        <point x="6.3" y="3.25"/>
+      </points>
+      <bodyColor hex="f0e68c"/>
+      <borderColor hex="a8a162"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="cccccc"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
+      <pinSpacing value="0.1" unit="in"/>
+      <value value="100.0" unit="nF"/>
+      <voltage>_63V</voltage>
+    </diylc.passive.RadialCeramicDiskCapacitor>
+    <diylc.passive.RadialCeramicDiskCapacitor>
+      <name>C7</name>
+      <alpha>127</alpha>
+      <length value="0.25" unit="in"/>
+      <width value="0.125" unit="in"/>
+      <points>
+        <point x="6.15" y="4.45"/>
+        <point x="6.25" y="4.25"/>
+        <point x="6.2" y="4.35"/>
+      </points>
+      <bodyColor hex="f0e68c"/>
+      <borderColor hex="a8a162"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="cccccc"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
+      <pinSpacing value="0.1" unit="in"/>
+      <value value="100.0" unit="nF"/>
+      <voltage>_63V</voltage>
+    </diylc.passive.RadialCeramicDiskCapacitor>
+    <diylc.passive.Resistor>
+      <name>R3</name>
+      <alpha>127</alpha>
+      <length value="7.0" unit="mm"/>
+      <width value="2.5" unit="mm"/>
+      <points>
+        <point x="6.35" y="3.35"/>
+        <point x="6.45" y="3.15"/>
+        <point x="6.4" y="3.25"/>
+      </points>
+      <bodyColor hex="82cffd"/>
+      <borderColor hex="5b90b1"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="cccccc"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
+      <value value="100.0" unit="K"/>
+      <power>HALF</power>
+      <colorCode>NONE</colorCode>
+      <shape>Standard</shape>
+    </diylc.passive.Resistor>
+    <diylc.connectivity.Jumper>
+      <name>J5</name>
+      <alpha>127</alpha>
+      <points>
+        <point x="6.75" y="3.25"/>
+        <point x="6.75" y="3.15"/>
+        <point x="6.75" y="3.2"/>
+      </points>
+      <bodyColor hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="000000"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
+      <style>SOLID</style>
+    </diylc.connectivity.Jumper>
+    <diylc.connectivity.Jumper>
+      <name>J6</name>
+      <alpha>127</alpha>
+      <points>
+        <point x="7.65" y="3.25"/>
+        <point x="7.65" y="3.15"/>
+        <point x="7.695" y="0.445"/>
+      </points>
+      <bodyColor hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="000000"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
+      <style>SOLID</style>
+    </diylc.connectivity.Jumper>
+    <diylc.connectivity.Jumper>
+      <name>J7</name>
+      <alpha>127</alpha>
+      <points>
+        <point x="8.05" y="3.25"/>
+        <point x="8.05" y="3.15"/>
+        <point x="8.095" y="0.445"/>
+      </points>
+      <bodyColor hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="000000"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
+      <style>SOLID</style>
+    </diylc.connectivity.Jumper>
+    <diylc.passive.TrimmerPotentiometer>
+      <name>RV2</name>
+      <alpha>127</alpha>
+      <controlPoints>
+        <point x="6.55" y="3.45"/>
+        <point x="6.65" y="3.25"/>
+        <point x="6.75" y="3.45"/>
+      </controlPoints>
+      <resistance value="100.0" unit="K"/>
+      <orientation>_270</orientation>
+      <taper>LIN</taper>
+      <bodyColor hex="ffffe0"/>
+      <borderColor hex="8e8e38"/>
+      <display>NAME</display>
+      <type>FLAT_XSMALL</type>
+    </diylc.passive.TrimmerPotentiometer>
+    <diylc.passive.Resistor>
+      <name>R7</name>
+      <alpha>127</alpha>
+      <length value="7.0" unit="mm"/>
+      <width value="2.5" unit="mm"/>
+      <points>
+        <point x="6.05" y="3.25"/>
+        <point x="5.65" y="3.35"/>
+        <point x="3.885" y="3.615"/>
+      </points>
+      <bodyColor hex="82cffd"/>
+      <borderColor hex="5b90b1"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="cccccc"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
+      <value value="1.0" unit="K"/>
+      <power>HALF</power>
+      <colorCode>NONE</colorCode>
+      <shape>Standard</shape>
+    </diylc.passive.Resistor>
+    <diylc.passive.Resistor>
+      <name>R4</name>
+      <alpha>127</alpha>
+      <length value="7.0" unit="mm"/>
+      <width value="2.5" unit="mm"/>
+      <points>
+        <point x="6.65" y="3.55"/>
+        <point x="6.85" y="3.55"/>
+        <point x="10.805" y="2.515"/>
+      </points>
+      <bodyColor hex="82cffd"/>
+      <borderColor hex="5b90b1"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="cccccc"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
+      <value value="22.0" unit="K"/>
+      <power>HALF</power>
+      <colorCode>NONE</colorCode>
+      <shape>Standard</shape>
+    </diylc.passive.Resistor>
+    <diylc.connectivity.HookupWire>
+      <name>W2</name>
+      <alpha>127</alpha>
+      <controlPoints2>
+        <point x="6.15" y="4.05"/>
+        <point x="6.05" y="4.6"/>
+        <point x="6.6" y="4.85"/>
+        <point x="7.15" y="4.15"/>
+      </controlPoints2>
+      <color hex="00ff00"/>
+      <pointCount>FOUR</pointCount>
+      <style>SOLID</style>
+      <smooth>true</smooth>
+      <lastUpdatePointIndex>-1</lastUpdatePointIndex>
+      <gauge>_22</gauge>
+      <striped>false</striped>
+      <stripeColor hex="ffff00"/>
+    </diylc.connectivity.HookupWire>
+    <diylc.connectivity.HookupWire>
+      <name>W1</name>
+      <alpha>127</alpha>
+      <controlPoints2>
+        <point x="6.35" y="3.55"/>
+        <point x="6.6" y="3.25"/>
+        <point x="7.5" y="2.4"/>
+        <point x="7.95" y="3.45"/>
+      </controlPoints2>
+      <color hex="00ff00"/>
+      <pointCount>FOUR</pointCount>
+      <style>SOLID</style>
+      <smooth>true</smooth>
+      <lastUpdatePointIndex>-1</lastUpdatePointIndex>
+      <gauge>_22</gauge>
+      <striped>false</striped>
+      <stripeColor hex="ffff00"/>
+    </diylc.connectivity.HookupWire>
+    <diylc.passive.Resistor>
+      <name>R5</name>
+      <alpha>127</alpha>
+      <length value="7.0" unit="mm"/>
+      <width value="2.5" unit="mm"/>
+      <points>
+        <point x="6.85" y="3.45"/>
+        <point x="7.15" y="3.45"/>
+        <point x="13.91" y="0.75"/>
+      </points>
+      <bodyColor hex="82cffd"/>
+      <borderColor hex="5b90b1"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="cccccc"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
+      <value value="22.0" unit="K"/>
+      <power>HALF</power>
+      <colorCode>NONE</colorCode>
+      <shape>Standard</shape>
+    </diylc.passive.Resistor>
+    <diylc.connectivity.HookupWire>
+      <name>W3</name>
+      <alpha>127</alpha>
+      <controlPoints2>
+        <point x="6.85" y="3.35"/>
+        <point x="7.45" y="3.35"/>
+        <point x="7.25" y="2.65"/>
+        <point x="7.1" y="2.45"/>
+      </controlPoints2>
+      <color hex="00ffff"/>
+      <pointCount>FOUR</pointCount>
+      <style>SOLID</style>
+      <smooth>true</smooth>
+      <lastUpdatePointIndex>-1</lastUpdatePointIndex>
+      <gauge>_22</gauge>
+      <striped>false</striped>
+      <stripeColor hex="ffff00"/>
+    </diylc.connectivity.HookupWire>
+    <diylc.passive.RadialCeramicDiskCapacitor>
+      <name>C1</name>
+      <alpha>127</alpha>
+      <length value="0.25" unit="in"/>
+      <width value="0.125" unit="in"/>
+      <points>
+        <point x="5.95" y="3.55"/>
+        <point x="6.05" y="3.55"/>
+        <point x="6.0" y="3.55"/>
+      </points>
+      <bodyColor hex="f0e68c"/>
+      <borderColor hex="a8a162"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="cccccc"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
+      <pinSpacing value="0.1" unit="in"/>
+      <value value="1.0" unit="nF"/>
+      <voltage>_63V</voltage>
+    </diylc.passive.RadialCeramicDiskCapacitor>
+    <diylc.passive.Resistor>
+      <name>R1</name>
+      <alpha>127</alpha>
+      <length value="7.0" unit="mm"/>
+      <width value="2.5" unit="mm"/>
+      <points>
+        <point x="6.15" y="3.35"/>
+        <point x="6.15" y="3.15"/>
+        <point x="6.26" y="-0.295"/>
+      </points>
+      <bodyColor hex="82cffd"/>
+      <borderColor hex="5b90b1"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="cccccc"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
+      <value value="1.0" unit="M"/>
+      <power>HALF</power>
+      <colorCode>NONE</colorCode>
+      <shape>Standard</shape>
+    </diylc.passive.Resistor>
+    <diylc.semiconductors.DiodeGlass>
+      <name>D2</name>
+      <alpha>127</alpha>
+      <length value="0.2" unit="in"/>
+      <width value="0.09" unit="in"/>
+      <points>
+        <point x="5.85" y="3.45"/>
+        <point x="6.15" y="3.45"/>
+        <point x="6.0" y="3.45"/>
+      </points>
+      <bodyColor hex="e1f0ff"/>
+      <borderColor hex="808080"/>
+      <labelColor hex="ffffff"/>
+      <leadColor hex="cccccc"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
+      <value>1N4148</value>
+      <markerColor hex="808080"/>
+      <insideColor hex="e66e31"/>
+    </diylc.semiconductors.DiodeGlass>
+    <diylc.connectivity.HookupWire>
+      <name>W5</name>
+      <alpha>127</alpha>
+      <controlPoints2>
+        <point x="5.85" y="3.55"/>
+        <point x="6.05" y="3.1"/>
+        <point x="7.0" y="2.35"/>
+        <point x="7.55" y="3.25"/>
+      </controlPoints2>
+      <color hex="00ff00"/>
+      <pointCount>FOUR</pointCount>
+      <style>SOLID</style>
+      <smooth>true</smooth>
+      <lastUpdatePointIndex>-1</lastUpdatePointIndex>
+      <gauge>_22</gauge>
+      <striped>false</striped>
+      <stripeColor hex="ffff00"/>
+    </diylc.connectivity.HookupWire>
+    <diylc.connectivity.Jumper>
+      <name>J12</name>
+      <alpha>127</alpha>
+      <points>
+        <point x="5.95" y="3.25"/>
+        <point x="5.45" y="3.35"/>
+        <point x="5.23" y="3.81"/>
+      </points>
+      <bodyColor hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="0000ff"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
+      <style>SOLID</style>
+    </diylc.connectivity.Jumper>
+    <diylc.passive.Resistor>
+      <name>R8</name>
+      <alpha>127</alpha>
+      <length value="7.0" unit="mm"/>
+      <width value="2.5" unit="mm"/>
+      <points>
+        <point x="5.65" y="3.15"/>
+        <point x="5.65" y="3.25"/>
+        <point x="4.465" y="4.96"/>
+      </points>
+      <bodyColor hex="82cffd"/>
+      <borderColor hex="5b90b1"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="cccccc"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
+      <value value="270.0" unit="R"/>
+      <power>HALF</power>
+      <colorCode>NONE</colorCode>
+      <shape>Standard</shape>
+    </diylc.passive.Resistor>
+    <diylc.misc.Label>
+      <name>L2</name>
+      <point x="7.6" y="3.6"/>
+      <text>CV</text>
+      <font name="Dialog.plain" size="14" style="0"/>
+      <color hex="000000"/>
+      <center>false</center>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>_180</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>L3</name>
+      <point x="8.0" y="4.0"/>
+      <text>OUT</text>
+      <font name="Dialog.plain" size="14" style="0"/>
+      <color hex="000000"/>
+      <center>false</center>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>L4</name>
+      <point x="7.6" y="4.0"/>
+      <text>PITCH</text>
+      <font name="Dialog.plain" size="14" style="0"/>
+      <color hex="000000"/>
+      <center>false</center>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>L5</name>
+      <point x="7.2" y="4.0"/>
+      <text>WET/DRY</text>
+      <font name="Dialog.plain" size="14" style="0"/>
+      <color hex="000000"/>
+      <center>false</center>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>L6</name>
+      <point x="7.15" y="3.6"/>
+      <text>FEEDBACK</text>
+      <font name="Dialog.plain" size="14" style="0"/>
+      <color hex="000000"/>
+      <center>false</center>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>_180</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>L7</name>
+      <point x="8.0" y="3.6"/>
+      <text>IN</text>
+      <font name="Dialog.plain" size="14" style="0"/>
+      <color hex="000000"/>
+      <center>false</center>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>_180</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>L1</name>
+      <point x="4.05" y="4.15"/>
+      <text>To MEG PITCH 2</text>
+      <font name="Dialog.plain" size="14" style="0"/>
+      <color hex="000000"/>
+      <center>false</center>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>L9</name>
+      <point x="7.05" y="2.3"/>
+      <text>To MEG IN</text>
+      <font name="Dialog.plain" size="14" style="0"/>
+      <color hex="000000"/>
+      <center>false</center>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.shapes.Rectangle>
+      <name>RECT9</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="5.35" y="3.45"/>
+        <point x="5.75" y="4.05"/>
+      </controlPoints>
+      <firstPoint x="5.35" y="3.45"/>
+      <secondPoint x="5.75" y="4.05"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.2" unit="mm"/>
+      <edgeRadius value="0.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.semiconductors.LED>
+      <name>Dvac</name>
+      <alpha>127</alpha>
+      <length value="5.0" unit="mm"/>
+      <width value="5.0" unit="mm"/>
+      <points>
+        <point x="5.45" y="3.55"/>
+        <point x="5.65" y="3.55"/>
+        <point x="5.55" y="3.55"/>
+      </points>
+      <bodyColor hex="5dfc0a"/>
+      <borderColor hex="41b007"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="cccccc"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
+      <value></value>
+    </diylc.semiconductors.LED>
+    <diylc.passive.Resistor>
+      <name>Rvac</name>
+      <alpha>127</alpha>
+      <length value="7.0" unit="mm"/>
+      <width value="2.5" unit="mm"/>
+      <points>
+        <point x="5.45" y="3.95"/>
+        <point x="5.65" y="3.95"/>
+        <point x="5.55" y="3.95"/>
+      </points>
+      <bodyColor hex="82cffd"/>
+      <borderColor hex="5b90b1"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="cccccc"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
+      <power>HALF</power>
+      <colorCode>_5_BAND</colorCode>
+      <shape>Standard</shape>
+    </diylc.passive.Resistor>
+    <diylc.passive.Resistor>
+      <name>R6</name>
+      <alpha>127</alpha>
+      <length value="7.0" unit="mm"/>
+      <width value="2.5" unit="mm"/>
+      <points>
+        <point x="5.15" y="4.25"/>
+        <point x="5.45" y="4.25"/>
+        <point x="8.665" y="4.305"/>
+      </points>
+      <bodyColor hex="82cffd"/>
+      <borderColor hex="5b90b1"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="cccccc"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
+      <value value="2.0" unit="K"/>
+      <power>HALF</power>
+      <colorCode>NONE</colorCode>
+      <shape>Standard</shape>
+    </diylc.passive.Resistor>
+    <diylc.connectivity.HookupWire>
+      <name>W6</name>
+      <alpha>127</alpha>
+      <controlPoints2>
+        <point x="4.4" y="4.15"/>
+        <point x="4.65" y="4.0"/>
+        <point x="5.2" y="4.3"/>
+        <point x="5.15" y="4.35"/>
+      </controlPoints2>
+      <color hex="00ffff"/>
+      <pointCount>FOUR</pointCount>
+      <style>SOLID</style>
+      <smooth>true</smooth>
+      <lastUpdatePointIndex>-1</lastUpdatePointIndex>
+      <gauge>_22</gauge>
+      <striped>false</striped>
+      <stripeColor hex="ffff00"/>
+    </diylc.connectivity.HookupWire>
+    <diylc.connectivity.HookupWire>
+      <name>W7</name>
+      <alpha>127</alpha>
+      <controlPoints2>
+        <point x="4.4" y="4.35"/>
+        <point x="5.05" y="4.4"/>
+        <point x="5.4" y="4.4"/>
+        <point x="5.65" y="4.25"/>
+      </controlPoints2>
+      <color hex="00ffff"/>
+      <pointCount>FOUR</pointCount>
+      <style>SOLID</style>
+      <smooth>true</smooth>
+      <lastUpdatePointIndex>-1</lastUpdatePointIndex>
+      <gauge>_22</gauge>
+      <striped>false</striped>
+      <stripeColor hex="ffff00"/>
+    </diylc.connectivity.HookupWire>
+    <diylc.connectivity.HookupWire>
+      <name>W8</name>
+      <alpha>127</alpha>
+      <controlPoints2>
+        <point x="7.55" y="4.15"/>
+        <point x="6.9" y="5.1"/>
+        <point x="5.4" y="4.6"/>
+        <point x="5.65" y="4.35"/>
+      </controlPoints2>
+      <color hex="00ff00"/>
+      <pointCount>FOUR</pointCount>
+      <style>SOLID</style>
+      <smooth>true</smooth>
+      <lastUpdatePointIndex>-1</lastUpdatePointIndex>
+      <gauge>_22</gauge>
+      <striped>false</striped>
+      <stripeColor hex="ffff00"/>
+    </diylc.connectivity.HookupWire>
+    <diylc.connectivity.HookupWire>
+      <name>W9</name>
+      <alpha>127</alpha>
+      <controlPoints2>
+        <point x="7.65" y="4.15"/>
+        <point x="6.6" y="5.55"/>
+        <point x="5.2" y="4.6"/>
+        <point x="5.45" y="4.35"/>
+      </controlPoints2>
+      <color hex="00ff00"/>
+      <pointCount>FOUR</pointCount>
+      <style>SOLID</style>
+      <smooth>true</smooth>
+      <lastUpdatePointIndex>-1</lastUpdatePointIndex>
+      <gauge>_22</gauge>
+      <striped>false</striped>
+      <stripeColor hex="ffff00"/>
+    </diylc.connectivity.HookupWire>
+    <diylc.passive.Resistor>
+      <name>R10</name>
+      <alpha>127</alpha>
+      <length value="7.0" unit="mm"/>
+      <width value="2.5" unit="mm"/>
+      <points>
+        <point x="5.85" y="4.15"/>
+        <point x="5.95" y="4.15"/>
+        <point x="7.67" y="5.32"/>
+      </points>
+      <bodyColor hex="82cffd"/>
+      <borderColor hex="5b90b1"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="cccccc"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
+      <value value="1.0" unit="K"/>
+      <power>HALF</power>
+      <colorCode>NONE</colorCode>
+      <shape>Standard</shape>
+    </diylc.passive.Resistor>
+    <diylc.connectivity.HookupWire>
+      <name>W10</name>
+      <alpha>127</alpha>
+      <controlPoints2>
+        <point x="5.85" y="4.25"/>
+        <point x="6.2" y="4.9"/>
+        <point x="7.5" y="4.95"/>
+        <point x="8.05" y="4.15"/>
+      </controlPoints2>
+      <color hex="00ff00"/>
+      <pointCount>FOUR</pointCount>
+      <style>SOLID</style>
+      <smooth>true</smooth>
+      <lastUpdatePointIndex>-1</lastUpdatePointIndex>
+      <gauge>_22</gauge>
+      <striped>false</striped>
+      <stripeColor hex="ffff00"/>
+    </diylc.connectivity.HookupWire>
+    <diylc.connectivity.HookupWire>
+      <name>W11</name>
+      <alpha>127</alpha>
+      <controlPoints2>
+        <point x="6.45" y="3.25"/>
+        <point x="6.7" y="2.95"/>
+        <point x="6.95" y="2.55"/>
+        <point x="7.05" y="4.15"/>
+      </controlPoints2>
+      <color hex="00ff00"/>
+      <pointCount>FOUR</pointCount>
+      <style>SOLID</style>
+      <smooth>true</smooth>
+      <lastUpdatePointIndex>-1</lastUpdatePointIndex>
+      <gauge>_22</gauge>
+      <striped>false</striped>
+      <stripeColor hex="ffff00"/>
+    </diylc.connectivity.HookupWire>
+    <diylc.passive.Resistor>
+      <name>R9</name>
+      <alpha>127</alpha>
+      <length value="7.0" unit="mm"/>
+      <width value="2.5" unit="mm"/>
+      <points>
+        <point x="6.45" y="4.45"/>
+        <point x="6.45" y="4.35"/>
+        <point x="6.425" y="-1.3"/>
+      </points>
+      <bodyColor hex="82cffd"/>
+      <borderColor hex="5b90b1"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="cccccc"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
+      <value value="100.0" unit="K"/>
+      <power>HALF</power>
+      <colorCode>NONE</colorCode>
+      <shape>Standard</shape>
+    </diylc.passive.Resistor>
+    <diylc.connectivity.HookupWire>
+      <name>W12</name>
+      <alpha>127</alpha>
+      <controlPoints2>
+        <point x="6.35" y="4.05"/>
+        <point x="6.65" y="4.45"/>
+        <point x="6.9" y="4.85"/>
+        <point x="7.9" y="5.1"/>
+      </controlPoints2>
+      <color hex="00ffff"/>
+      <pointCount>FOUR</pointCount>
+      <style>SOLID</style>
+      <smooth>true</smooth>
+      <lastUpdatePointIndex>-1</lastUpdatePointIndex>
+      <gauge>_22</gauge>
+      <striped>false</striped>
+      <stripeColor hex="ffff00"/>
+    </diylc.connectivity.HookupWire>
+    <diylc.passive.Resistor>
+      <name>R11</name>
+      <alpha>127</alpha>
+      <length value="7.0" unit="mm"/>
+      <width value="2.5" unit="mm"/>
+      <points>
+        <point x="6.35" y="4.35"/>
+        <point x="6.35" y="4.45"/>
+        <point x="1.71" y="11.55"/>
+      </points>
+      <bodyColor hex="82cffd"/>
+      <borderColor hex="5b90b1"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="cccccc"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
+      <value value="10.0" unit="R"/>
+      <power>HALF</power>
+      <colorCode>NONE</colorCode>
+      <shape>Standard</shape>
+    </diylc.passive.Resistor>
+    <diylc.passive.TrimmerPotentiometer>
+      <name>RV5</name>
+      <alpha>127</alpha>
+      <controlPoints>
+        <point x="6.65" y="4.35"/>
+        <point x="6.75" y="4.15"/>
+        <point x="6.85" y="4.35"/>
+      </controlPoints>
+      <resistance value="100.0" unit="K"/>
+      <orientation>_270</orientation>
+      <taper>LIN</taper>
+      <bodyColor hex="ffffe0"/>
+      <borderColor hex="8e8e38"/>
+      <display>NAME</display>
+      <type>FLAT_XSMALL</type>
+    </diylc.passive.TrimmerPotentiometer>
+    <diylc.connectivity.Jumper>
+      <name>J14</name>
+      <alpha>127</alpha>
+      <points>
+        <point x="6.55" y="4.05"/>
+        <point x="6.75" y="4.05"/>
+        <point x="6.65" y="4.05"/>
+      </points>
+      <bodyColor hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="0000ff"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
+      <style>SOLID</style>
+    </diylc.connectivity.Jumper>
+    <diylc.connectivity.Jumper>
+      <name>J15</name>
+      <alpha>127</alpha>
+      <points>
+        <point x="6.75" y="3.95"/>
+        <point x="6.85" y="3.95"/>
+        <point x="6.8" y="3.95"/>
+      </points>
+      <bodyColor hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="0000ff"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
+      <style>SOLID</style>
+    </diylc.connectivity.Jumper>
+    <diylc.connectivity.Jumper>
+      <name>J16</name>
+      <alpha>127</alpha>
+      <points>
+        <point x="6.65" y="4.15"/>
+        <point x="6.45" y="4.15"/>
+        <point x="6.55" y="4.15"/>
+      </points>
+      <bodyColor hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="0000ff"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
+      <style>SOLID</style>
+    </diylc.connectivity.Jumper>
+    <diylc.connectivity.HookupWire>
+      <name>W13</name>
+      <alpha>127</alpha>
+      <controlPoints2>
+        <point x="6.35" y="4.15"/>
+        <point x="6.65" y="4.55"/>
+        <point x="7.1" y="4.1"/>
+        <point x="7.05" y="3.35"/>
+      </controlPoints2>
+      <color hex="00ff00"/>
+      <pointCount>FOUR</pointCount>
+      <style>SOLID</style>
+      <smooth>true</smooth>
+      <lastUpdatePointIndex>-1</lastUpdatePointIndex>
+      <gauge>_22</gauge>
+      <striped>false</striped>
+      <stripeColor hex="ffff00"/>
+    </diylc.connectivity.HookupWire>
+    <diylc.connectivity.HookupWire>
+      <name>W14</name>
+      <alpha>127</alpha>
+      <controlPoints2>
+        <point x="6.85" y="4.05"/>
+        <point x="6.75" y="4.6"/>
+        <point x="7.3" y="4.85"/>
+        <point x="7.25" y="4.15"/>
+      </controlPoints2>
+      <color hex="00ff00"/>
+      <pointCount>FOUR</pointCount>
+      <style>SOLID</style>
+      <smooth>true</smooth>
+      <lastUpdatePointIndex>-1</lastUpdatePointIndex>
+      <gauge>_22</gauge>
+      <striped>false</striped>
+      <stripeColor hex="ffff00"/>
+    </diylc.connectivity.HookupWire>
+    <diylc.connectivity.Jumper>
+      <name>J17</name>
+      <alpha>127</alpha>
+      <points>
+        <point x="7.95" y="4.55"/>
+        <point x="7.95" y="4.45"/>
+        <point x="5.4" y="1.055"/>
+      </points>
+      <bodyColor hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="000000"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
+      <style>SOLID</style>
+    </diylc.connectivity.Jumper>
+    <diylc.connectivity.Jumper>
+      <name>J18</name>
+      <alpha>127</alpha>
+      <points>
+        <point x="7.25" y="3.25"/>
+        <point x="7.25" y="3.15"/>
+        <point x="4.715" y="-0.015"/>
+      </points>
+      <bodyColor hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="000000"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
+      <style>SOLID</style>
+    </diylc.connectivity.Jumper>
+    <diylc.misc.Label>
+      <name>L12</name>
+      <point x="4.05" y="4.3"/>
+      <text>To MEG PITCH 1</text>
+      <font name="Dialog.plain" size="14" style="0"/>
+      <color hex="000000"/>
+      <center>false</center>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>L18</name>
+      <point x="8.15" y="5.1"/>
+      <text>To MEG OUT</text>
+      <font name="Dialog.plain" size="14" style="0"/>
+      <color hex="000000"/>
+      <center>false</center>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.semiconductors.DiodePlastic>
+      <name>D1</name>
+      <alpha>127</alpha>
+      <length value="0.25" unit="in"/>
+      <width value="0.125" unit="in"/>
+      <points>
+        <point x="7.55" y="3.15"/>
+        <point x="7.55" y="3.45"/>
+        <point x="7.55" y="3.3"/>
+      </points>
+      <bodyColor hex="404040"/>
+      <borderColor hex="2c2c2c"/>
+      <labelColor hex="ffffff"/>
+      <leadColor hex="cccccc"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
+      <value>1N4733A</value>
+      <markerColor hex="dddddd"/>
+    </diylc.semiconductors.DiodePlastic>
+    <diylc.connectivity.Jumper>
+      <name>J8</name>
+      <alpha>127</alpha>
+      <points>
+        <point x="5.15" y="3.25"/>
+        <point x="5.15" y="3.15"/>
+        <point x="3.2" y="2.775"/>
+      </points>
+      <bodyColor hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="000000"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
+      <style>SOLID</style>
+    </diylc.connectivity.Jumper>
+    <diylc.connectivity.Jumper>
+      <name>J19</name>
+      <alpha>127</alpha>
+      <points>
+        <point x="5.25" y="3.25"/>
+        <point x="5.25" y="3.05"/>
+        <point x="3.3" y="2.725"/>
+      </points>
+      <bodyColor hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="ff0000"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
+      <style>SOLID</style>
+    </diylc.connectivity.Jumper>
+    <diylc.passive.RadialCeramicDiskCapacitor>
+      <name>C5</name>
+      <alpha>127</alpha>
+      <length value="0.25" unit="in"/>
+      <width value="0.125" unit="in"/>
+      <points>
+        <point x="5.05" y="3.15"/>
+        <point x="5.05" y="3.35"/>
+        <point x="5.16" y="6.755"/>
+      </points>
+      <bodyColor hex="f0e68c"/>
+      <borderColor hex="a8a162"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="cccccc"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
+      <pinSpacing value="0.1" unit="in"/>
+      <value value="100.0" unit="nF"/>
+      <voltage>_63V</voltage>
+    </diylc.passive.RadialCeramicDiskCapacitor>
+    <diylc.passive.RadialCeramicDiskCapacitor>
+      <name>C4</name>
+      <alpha>127</alpha>
+      <length value="0.25" unit="in"/>
+      <width value="0.125" unit="in"/>
+      <points>
+        <point x="5.35" y="3.05"/>
+        <point x="5.35" y="3.15"/>
+        <point x="2.575" y="8.105"/>
+      </points>
+      <bodyColor hex="f0e68c"/>
+      <borderColor hex="a8a162"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="cccccc"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
+      <pinSpacing value="0.1" unit="in"/>
+      <value value="330.0" unit="nF"/>
+      <voltage>_63V</voltage>
+    </diylc.passive.RadialCeramicDiskCapacitor>
+    <diylc.connectivity.HookupWire>
+      <name>W4</name>
+      <alpha>127</alpha>
+      <controlPoints2>
+        <point x="4.3" y="3.65"/>
+        <point x="4.75" y="3.8"/>
+        <point x="5.1" y="3.8"/>
+        <point x="5.05" y="3.65"/>
+      </controlPoints2>
+      <color hex="ffffff"/>
+      <pointCount>FOUR</pointCount>
+      <style>SOLID</style>
+      <smooth>true</smooth>
+      <lastUpdatePointIndex>-1</lastUpdatePointIndex>
+      <gauge>_22</gauge>
+      <striped>false</striped>
+      <stripeColor hex="ffff00"/>
+    </diylc.connectivity.HookupWire>
+    <diylc.connectivity.Jumper>
+      <name>J3</name>
+      <alpha>127</alpha>
+      <points>
+        <point x="6.45" y="3.55"/>
+        <point x="6.55" y="3.55"/>
+        <point x="10.41" y="3.575"/>
+      </points>
+      <bodyColor hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="0000ff"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
+      <style>SOLID</style>
+    </diylc.connectivity.Jumper>
+    <diylc.connectivity.Jumper>
+      <name>J4</name>
+      <alpha>127</alpha>
+      <points>
+        <point x="5.95" y="4.05"/>
+        <point x="6.05" y="4.05"/>
+        <point x="9.91" y="4.075"/>
+      </points>
+      <bodyColor hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="0000ff"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
+      <style>SOLID</style>
+    </diylc.connectivity.Jumper>
+    <diylc.misc.Image>
+      <name>Img1</name>
+      <alpha>127</alpha>
+      <point x="8.4" y="3.1"/>
+      <data>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
+FQVC8fk/oWYXlaN/H3wAAAAASUVORK5CYII=</data>
+      <newScale>25</newScale>
+      <sizingMode>Scale</sizingMode>
+    </diylc.misc.Image>
+    <diylc.passive.Resistor>
+      <name>R12</name>
+      <alpha>127</alpha>
+      <length value="7.0" unit="mm"/>
+      <width value="2.5" unit="mm"/>
+      <points>
+        <point x="6.55" y="4.45"/>
+        <point x="6.45" y="4.25"/>
+        <point x="7.455" y="-4.115"/>
+      </points>
+      <bodyColor hex="82cffd"/>
+      <borderColor hex="5b90b1"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="cccccc"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
+      <value value="100.0" unit="K"/>
+      <power>HALF</power>
+      <colorCode>NONE</colorCode>
+      <shape>Standard</shape>
+    </diylc.passive.Resistor>
+    <diylc.misc.Label>
+      <name>L8</name>
+      <point x="3.95" y="3.65"/>
+      <text>To MEG VCC</text>
+      <font name="Dialog.plain" size="14" style="0"/>
+      <color hex="000000"/>
+      <center>false</center>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>L10</name>
+      <point x="5.55" y="3.8"/>
+      <text>U2 (VTL5C)</text>
+      <font reference="../../diylc.misc.Label[7]/font"/>
+      <color hex="000000"/>
+      <center>false</center>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>L11</name>
+      <point x="8.65" y="4.6"/>
+      <text>R12   47k   1</text>
+      <font name="Dialog.plain" size="14" style="0"/>
+      <color hex="000000"/>
+      <center>false</center>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+  </components>
+  <groups/>
+  <lockedLayers/>
+  <lockedComponents/>
+  <hiddenLayers/>
+  <font name="Dialog.plain" size="14" style="0"/>
+</project>
