@@ -1,0 +1,327 @@
+/**********************
+* general styles *
+***********************/
+.wpus	{
+	display: block;
+	font-size: 16px;
+	color: #f0f0f0;
+}
+
+.wpus em	{
+	height: 20px;
+	width: 20px;
+	display: inline-block;
+	float: left;
+	margin: 3px 5px 0 10px;
+}
+em.wpus_	{
+	margin: 0!important;
+	padding: 0;
+	height: 0!important;
+	width: 0!important;
+}
+.wpus_button em.wpus_	{
+	padding: 10px 7px;
+}
+.wpus_left	{
+	float: left;
+	margin-right: 10px!important;
+}
+.wpus_right	{
+	float: right;
+	margin-left: 10px!important;
+}
+.wpus_box:after	{
+	display: block;
+	visibility: hidden;
+	content: ".";
+	clear: both;
+	height: 0;
+}
+.wpus_box .wpus_button em	{
+	margin-left: 10px!important;
+}
+.wpus_box .wpus_button em.wpus_	{
+	padding: 5px!important;
+}
+.wpus_box, .wpus_button	{
+	margin: 5px 0 5px 0;
+}
+.wpus_button a	{
+	color: #fff;
+	text-decoration: none;
+}
+/**********************
+* element types *
+***********************/
+.wpus_alert	{
+	background: url('/web/20161115150330im_/http://casperelectronics.com/wp-content/plugins/wp-utility-shortcodes/css/images/alert.png') no-repeat;
+}
+.wpus_info	{
+	background: url('/web/20161115150330im_/http://casperelectronics.com/wp-content/plugins/wp-utility-shortcodes/css/images/info.png') no-repeat;
+}
+.wpus_tick	{
+	background: url('/web/20161115150330im_/http://casperelectronics.com/wp-content/plugins/wp-utility-shortcodes/css/images/tick.png') no-repeat;
+}
+.wpus_note	{
+	background: url('/web/20161115150330im_/http://casperelectronics.com/wp-content/plugins/wp-utility-shortcodes/css/images/note.png') no-repeat;
+}
+.wpus_download	{
+	background: url('/web/20161115150330im_/http://casperelectronics.com/wp-content/plugins/wp-utility-shortcodes/css/images/download.png') no-repeat;
+}
+.wpus_quote	{
+	background: url('/web/20161115150330im_/http://casperelectronics.com/wp-content/plugins/wp-utility-shortcodes/css/images/quote.png') no-repeat;
+}
+/**********************
+* button sizes *
+***********************/
+.wpus_button_large, .wpus_button_normal, .wpus_button_small	{
+	text-shadow: 1px 1px 1px #666;
+}
+.wpus_button:hover, .wpus_button__:hover	{
+	filter: alpha(opacity=75); /* internet explorer */
+	-khtml-opacity: 0.75;      /* khtml, old safari */
+	-moz-opacity: 0.75;       /* mozilla, netscape */
+	opacity: 0.75;           /* fx, safari, opera */
+	cursor: pointer;
+}
+.wpus_button_large	{
+	width: 182px!important;
+	height: 27px;
+	line-height: 27px;
+}
+.wpus_button_large em	{
+	margin: 3px 7px 3px 10px;
+}
+.wpus_button_normal	{
+	width: 139px!important;
+	height: 27px;
+	line-height: 27px;
+}
+.wpus_button_normal em, .wpus_button__ em	{
+	margin: 3px 7px 3px 10px;
+}
+.wpus_button_small	{
+	width: 98px!important;
+	height: 27px;
+	line-height: 27px;
+}
+.wpus_button_small em	{
+	margin: 3px 7px 4px 10px;
+	
+}
+/**********************
+* button colors *
+***********************/
+.wpus_button	{ /*default if no size or color specified*/
+	width: 139px;
+	height: 27px;
+	line-height: 27px;
+	background: url('/web/20161115150330im_/http://casperelectronics.com/wp-content/plugins/wp-utility-shortcodes/css/images/normal_gray.png');
+}
+.wpus_button_large.wpus_button_blue	{
+	background: url('/web/20161115150330im_/http://casperelectronics.com/wp-content/plugins/wp-utility-shortcodes/css/images/large_blue.png')!important;
+}
+.wpus_button_blue	{
+	background: url('/web/20161115150330im_/http://casperelectronics.com/wp-content/plugins/wp-utility-shortcodes/css/images/normal_blue.png')!important;
+}
+.wpus_button_small.wpus_button_blue	{
+	background: url('/web/20161115150330im_/http://casperelectronics.com/wp-content/plugins/wp-utility-shortcodes/css/images/small_blue.png')!important;
+}
+.wpus_button_large.wpus_button_yellow	{
+	background: url('/web/20161115150330im_/http://casperelectronics.com/wp-content/plugins/wp-utility-shortcodes/css/images/large_yellow.png')!important;
+	color: #444;
+	text-shadow: 1px 1px 1px #ccc;	
+}
+.wpus_button_yellow a	{
+	color: #444;
+}
+.wpus_button_yellow	{
+	background: url('/web/20161115150330im_/http://casperelectronics.com/wp-content/plugins/wp-utility-shortcodes/css/images/normal_yellow.png')!important;
+	color: #444;
+	text-shadow: 1px 1px 1px #ccc;	
+}
+.wpus_button_small.wpus_button_yellow	{
+	background: url('/web/20161115150330im_/http://casperelectronics.com/wp-content/plugins/wp-utility-shortcodes/css/images/small_yellow.png')!important;
+	color: #444;
+	text-shadow: 1px 1px 1px #ccc;	
+}
+.wpus_button_large.wpus_button_red	{
+	background: url('/web/20161115150330im_/http://casperelectronics.com/wp-content/plugins/wp-utility-shortcodes/css/images/large_red.png')!important;
+}
+.wpus_button_red	{
+	background: url('/web/20161115150330im_/http://casperelectronics.com/wp-content/plugins/wp-utility-shortcodes/css/images/normal_red.png')!important;
+}
+.wpus_button_small.wpus_button_red	{
+	background: url('/web/20161115150330im_/http://casperelectronics.com/wp-content/plugins/wp-utility-shortcodes/css/images/small_red.png')!important;
+}
+.wpus_button_large.wpus_button_green	{
+	background: url('/web/20161115150330im_/http://casperelectronics.com/wp-content/plugins/wp-utility-shortcodes/css/images/large_green.png')!important;
+}
+.wpus_button_green	{
+	background: url('/web/20161115150330im_/http://casperelectronics.com/wp-content/plugins/wp-utility-shortcodes/css/images/normal_green.png')!important;
+}
+.wpus_button_small.wpus_button_green	{
+	background: url('/web/20161115150330im_/http://casperelectronics.com/wp-content/plugins/wp-utility-shortcodes/css/images/small_green.png')!important;
+}
+.wpus_button_large.wpus_button_orange	{
+	background: url('/web/20161115150330im_/http://casperelectronics.com/wp-content/plugins/wp-utility-shortcodes/css/images/large_orange.png')!important;
+	color: #444;
+	text-shadow: 1px 1px 1px #ccc;		
+}
+.wpus_button_orange	{
+	background: url('/web/20161115150330im_/http://casperelectronics.com/wp-content/plugins/wp-utility-shortcodes/css/images/normal_orange.png')!important;
+	color: #444;
+	text-shadow: 1px 1px 1px #ccc;	
+}
+.wpus_button_small.wpus_button_orange	{
+	background: url('/web/20161115150330im_/http://casperelectronics.com/wp-content/plugins/wp-utility-shortcodes/css/images/small_orange.png')!important;
+	color: #444;
+	text-shadow: 1px 1px 1px #ccc;		
+}
+
+.wpus_button_large.wpus_button_gray	{
+	background: url('/web/20161115150330im_/http://casperelectronics.com/wp-content/plugins/wp-utility-shortcodes/css/images/large_gray.png')!important;
+	color: #444;
+	text-shadow: 1px 1px 1px #ccc;	
+}
+
+.wpus_button_gray	{
+	background: url('/web/20161115150330im_/http://casperelectronics.com/wp-content/plugins/wp-utility-shortcodes/css/images/normal_gray.png')!important;
+	color: #444;
+	text-shadow: 1px 1px 1px #ccc;		
+}
+
+.wpus_button_small.wpus_button_gray	{
+	background: url('/web/20161115150330im_/http://casperelectronics.com/wp-content/plugins/wp-utility-shortcodes/css/images/small_gray.png')!important;
+	color: #444;
+	text-shadow: 1px 1px 1px #ccc;	
+}
+
+.wpus_button_large.wpus_button_white	{
+	background: url('/web/20161115150330im_/http://casperelectronics.com/wp-content/plugins/wp-utility-shortcodes/css/images/large_white.png')!important;
+	color: #222;
+	text-shadow: 1px 1px 1px #f0f0f0;
+}
+
+.wpus_button_white	{
+	background: url('/web/20161115150330im_/http://casperelectronics.com/wp-content/plugins/wp-utility-shortcodes/css/images/normal_white.png')!important;
+	color: #222;
+	text-shadow: 1px 1px 1px #f0f0f0;	
+}
+
+.wpus_button_small.wpus_button_white	{
+	background: url('/web/20161115150330im_/http://casperelectronics.com/wp-content/plugins/wp-utility-shortcodes/css/images/small_white.png')!important;
+	color: #222;
+	text-shadow: 1px 1px 1px #f0f0f0;
+}
+
+.wpus_button_large.wpus_button_black	{
+	background: url('/web/20161115150330im_/http://casperelectronics.com/wp-content/plugins/wp-utility-shortcodes/css/images/large_black.png')!important;
+	color: #f0f0f0;
+	text-shadow: 1px 1px 1px #222;
+}
+.wpus_button_black	{
+	background: url('/web/20161115150330im_/http://casperelectronics.com/wp-content/plugins/wp-utility-shortcodes/css/images/normal_black.png')!important;
+	color: #f0f0f0;
+	text-shadow: 1px 1px 1px #222;
+}
+.wpus_button_small.wpus_button_black	{
+	background: url('/web/20161115150330im_/http://casperelectronics.com/wp-content/plugins/wp-utility-shortcodes/css/images/small_black.png')!important;
+	color: #f0f0f0;
+	text-shadow: 1px 1px 1px #222;
+}
+
+/**********************
+* box sizes *
+***********************/
+.wpus_box_full, .wpus_box_large, .wpus_box_normal, .wpus_box_small, .wpus_box_	{
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-color: #a1a1a1;
+	padding: 8px 12px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.wpus_box_full em, .wpus_box_large em, .wpus_box_normal em, .wpus_box_small em	{
+	margin: 3px 5px 0 0;
+}
+.wpus_box_full em.wpus_, .wpus_box_large em.wpus_, .wpus_box_normal em.wpus_, .wpus_box_small em.wpus_	{
+	padding: 0!important;
+	margin: 0!important;
+	width: 0!important;
+	height: 0!important;
+}
+
+.wpus_box_large	{
+	width: 400px;
+}
+.wpus_box_normal	{
+	width: 300px;
+}
+.wpus_box_small	{
+	width: 200px;
+}
+/**********************
+* box colors *
+***********************/
+
+.wpus_box_blue	{
+	background: #a0c5ef!important;
+	color: #333!important;
+}
+.wpus_box_red	{
+	background: #eba7a7!important;
+}
+.wpus_box_yellow	{
+	background: #ffd149!important;
+	color: #666!important;
+}
+.wpus_box_green	{
+	background: #c3fad0!important;
+	color: #666!important;
+}
+.wpus_box_orange	{
+	background: #ffa440!important;
+	color: #f0f0f0!important;
+}
+.wpus_box_white	{
+	background: #e7e7e7!important;
+	color: #666!important;
+}
+.wpus_box_gray, .wpus_box_	{
+	background: #c1c1c1;
+	color: #333;
+}
+.wpus_box_black	{
+	background: #515151!important;
+	color: #f0f0f0!important;
+}
+/**********************
+* box sizes *
+***********************/
+/*
+     FILE ARCHIVED ON 15:03:30 Nov 15, 2016 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 22:21:39 Jun 14, 2020.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  xauthn.chkprivs: 0.038
+  exclusion.robots.policy: 249.394
+  load_resource: 207.706
+  xauthn.identify: 249.107
+  esindex: 0.01
+  captures_list: 418.009
+  PetaboxLoader3.datanode: 208.364 (4)
+  CDXLines.iter: 11.226 (3)
+  LoadShardBlock: 150.985 (3)
+  RedisCDXSource: 3.697
+  exclusion.robots: 249.407
+  PetaboxLoader3.resolve: 98.577 (2)
+*/

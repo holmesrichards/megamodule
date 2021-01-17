@@ -1,0 +1,987 @@
+/* @override http://www.casperelectronics.com/wp-content/themes/casper/style.css */
+
+/*  
+Theme Name: Casperelectronics
+Theme URI: http://casperelectronics.com/
+Description: Main theme for casper!
+Version: 1.0
+Author: Ryan Masuga
+Author URI: http://masuga.com/
+*/
+
+/*
+default styles for casper v2
+Created:        Aug 07 2006
+Last Modified:	Aug 13 2006
+----------------------------- 
+ryan masuga, masugadesign.com
+ryan@masugadesign.com 
+===========================================*/
+
+/* begin styles to "normalize" elements accross browsers */
+body, div, ul, li, td, h1, h2, h3, h4, h5, h6 {
+	font-size: small;
+}
+
+div, span, img, form, h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+	background-color: transparent;
+	border: 0;
+}
+table{
+	border: 0;
+}
+/* end of "normalizing" styles */
+
+
+body{
+	background: #618289 url("/web/20170325202847im_/https://casperelectronics.com/wp-content/themes/casper/images/body_bg_08.gif") repeat-x top left;
+	font-family: "lucida grande", Arial, Helvetica, sans-serif;
+	margin: 0 0 30px 0;
+	padding: 0;
+	color: #24457a;
+	}
+
+h1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size:100%;
+	color: #363636;
+	margin:0;
+	}
+
+h2 {
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size:150%;
+	color: #ab5d38;
+	margin:0 0 .25em 0;
+	}
+
+.pressitem h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #ab5d38;
+	margin:0;
+}
+
+h3{
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size:130%;
+	color: #a17118;
+	margin:0 0 .25em 0;
+}
+
+
+p {
+	font-family: "lucida grande", Arial, Helvetica, sans-serif;
+	line-height: 1.4em;
+	font-size: 90%;
+	padding:0;
+	margin:5px 0 10px 0;
+}
+
+.pressitem p {
+	font-family: "lucida grande", Arial, Helvetica, sans-serif;
+	line-height: 1.4em;
+	font-size: 90%;
+	padding:0;
+	margin:0 0 10px 0;
+}
+
+td {
+	vertical-align: top;
+}
+a {outline: none;}
+a:link{color: #ff6600;}
+a:visited{color: #ff6600;}
+a:hover{color: #1C3E81;}
+a:active{color: #003399;}
+
+dt{
+	font-weight: bold;
+}
+
+hr {
+	border: 0;
+	width: 100%;
+	color: #ccc;
+	background-color: #ccc;
+	height: 1px;
+	margin: 10px 0 5px 0;
+	padding: 0;
+}
+
+ul {
+	margin:0 0 15px 0;
+	padding: 0 0 0 15px;
+	}
+
+ol {
+	margin:0 0 15px 0;
+	padding: 0 0 0 20px;
+	}
+
+
+#content ul li, #content ol li {
+	font-size: 90%;
+	font-weight: bold;
+	}
+
+
+.clr {
+	clear: both;
+	height: 0px;
+}
+.clearfix:after { /*http://positioniseverything.net/easyclearing.html*/
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+/* End hide from IE-mac */
+
+
+/* =CONTAINER styles
+===================================== */
+#container { /* this is the outermost container that sits in the middle of the page */
+	width: 760px;
+	position:relative;
+	left: 50%;
+	padding:0;
+	margin: 0 0 50px -380px;
+	background: #e96225 url("/web/20170325202847im_/https://casperelectronics.com/wp-content/themes/casper/images/container_bg_01.gif") repeat-y top left;
+	}
+
+* html>body #container {overflow : hidden;} /* this should be visible ONLY to IE 5 Mac */
+
+
+/* =HEADER styles
+===================================== */
+#header { /* holds large image at top of page */
+	margin: 0;
+	padding: 0;
+	height:179px;
+	background: #fff url("/web/20170325202847im_/https://casperelectronics.com/wp-content/themes/casper/images/header_bg_02.gif") repeat-x top left;
+	}
+
+#header h1{display:none;}
+
+.description {
+	position: absolute;
+	left: 160px;
+	top:166px;
+}
+
+/* =NAVIGATION styles
+===================================== */
+
+#nav { /* area just below the header that contains the main navigation buttons */
+	margin: 0;
+	padding: 0;
+	height:57px;
+	background: #fff url("/web/20170325202847im_/https://casperelectronics.com/wp-content/themes/casper/images/nav_bg_01.gif") repeat-x top left;
+	position:  relative;
+}
+
+/* =content styles
+================================= */
+#content { /* area where all the text and pictures go */
+	margin: 0;
+	padding: 0;
+	background: transparent url("/web/20170325202847im_/https://casperelectronics.com/wp-content/themes/casper/images/content_mid.gif") repeat-y top left;
+	width: 532px;
+	float: left;
+}
+
+#content-inner { /* text and pics actually reside within this, which is within "#content" */
+	margin: 0 25px 0 30px;
+	position:relative;
+}
+
+body#home #content-inner { /* text and pics actually reside within this, which is within "#content" */
+	background: #fff url('/web/20170325202847im_/https://casperelectronics.com/wp-content/themes/casper/images/bg_home_content.jpg') 100% 0 no-repeat;
+}
+
+#content-pics { /* for the pictures section only */
+	margin: 0;
+	padding: 0;
+	background: transparent url("/web/20170325202847im_/https://casperelectronics.com/wp-content/themes/casper/images/content-pics_mid.gif") repeat-y top left;
+	width: 760px;
+	float: left;
+}
+
+#content span.ctop { /* to hold the rounded graphic at the top of content */
+	background: transparent url("/web/20170325202847im_/https://casperelectronics.com/wp-content/themes/casper/images/content_top.gif") no-repeat top left;
+	display:block; width:532px; height:33px;
+}
+
+#content span.cbottom { /* to hold the rounded graphic at the bottom of content */
+	background: transparent url("/web/20170325202847im_/https://casperelectronics.com/wp-content/themes/casper/images/content_bottom.gif") no-repeat bottom left;
+	display:block; width:532px; height:35px;
+}
+
+/* special top and bottom spans for the pics section. requires a different width */
+#content-pics span.ctop {
+	background: transparent url("/web/20170325202847im_/https://casperelectronics.com/wp-content/themes/casper/images/content-pics_top.gif") no-repeat top left;
+	display:block; width:760px; height:33px;
+}
+#content-pics span.cbottom {
+	background: transparent url("/web/20170325202847im_/https://casperelectronics.com/wp-content/themes/casper/images/content-pics_bottom.gif") no-repeat bottom left;
+	display:block; width:760px; height:35px;
+}
+
+/* =Post styles
+--------------------------------- */
+
+div.post {
+	margin: 0 0 20px 0;
+	padding:0;
+}
+
+div.entry img.alignright {
+	padding: 4px;
+	margin: 0 0 2px 7px;
+	display: inline;
+	}
+
+div.entry img.alignleft {
+	padding: 4px;
+	margin: 0 7px 2px 0;
+	display: inline;
+	}
+
+div.entry .alignright {
+	float: right;
+	}
+	
+div.entry .alignleft {
+	float: left;
+	}
+
+div.post h3 {
+	margin:0;
+}
+
+div.post p {
+	margin: 6px 0;
+}
+
+.navigation-top {
+	margin-bottom: 10px;
+}
+
+.postmetadataalt {
+	padding: 10px;
+	color:#666;
+	background: #f8f8e8;
+	font-size: 70%;
+	line-height:150%;
+}
+
+/* Comments
+---------------------- */
+#content-inner ul.commentlist {
+	margin:10px 0;
+	padding:0;
+	}
+
+#content-inner ul.commentlist li {
+	list-style:none;
+	padding:8px 10px 10px 50px;
+	font-weight: normal;
+	font-size: 110%;
+	position: relative;
+	}
+
+#content-inner ul.commentlist li.alt {
+	background: #F4F8FB;
+	position: relative;
+	}
+
+#content-inner ul.commentlist li.caspercomment {
+	background: #f8f8e8;
+	border:1px solid #dadada;
+	position: relative;
+	}
+
+/* fat numbers */
+#content-inner ul.commentlist li div.commentcount {
+	position: absolute;
+	left:0px;
+	left:0px;
+	top:8px;
+	padding-right:8px;
+	font-size: 180%;
+	width: 42px;
+	color:#83B4C2;
+	text-align: right;
+	font-weight: bold;
+	font-family: arial, helvetica, sans-serif;
+	}
+
+/* other comment styles */
+.moderation {
+	color:#902C26;
+	font-style:italic;
+	}
+
+.moderation-text {
+	color: #d0d0d0;
+	}
+
+#content-inner ul.commentlist p.footnote {
+	color:#666;
+	}
+
+/*  unordered list at top for main sub-navigation
+========================================================================================== */   
+ul.inline {margin:0 0 20px 0;padding:0;}
+ul.inline li {display: inline; padding-left: 3px; padding-right: 5px; border-right: 1px dotted rgb(95,95,95);} 
+ul.inline li.last {display: inline; padding-left: 3px; padding-right: 0; border-right: 0;}
+ul.inline li.first {display: inline; padding-left: 0; padding-right: 6px; border-right: 1px dotted rgb(95,95,95);}
+/* END top nav ul //////////////////////////////////////////////////////////////////////// */
+
+
+/* =sidebar styles
+================================= */
+#sidebar {
+	margin: 0 0 0 0;
+	_margin: 0 -40px 0 0;
+	padding: 0 24px 0 18px;
+	background: transparent;
+	width: 186px;
+	float: right;
+	display: inline;
+}
+
+body#home #sidebar {
+	_margin: 0 -24px 0 0;
+	_padding: 0 24px 0 18px;
+}
+
+#sidebar-inner {
+	background: transparent url("/web/20170325202847im_/https://casperelectronics.com/wp-content/themes/casper/images/sidenav_mid.gif") repeat-y bottom left;
+	padding:0 24px 0 18px;
+	margin: 0 -24px 0 -18px;
+}
+
+
+#sidebar.finished, 
+#sidebar.art,
+#sidebar.music {
+	margin: 0 0 0 0;
+	padding: 0;
+	background: transparent url("/web/20170325202847im_/https://casperelectronics.com/wp-content/themes/casper/images/sidenav_mid.gif") repeat-y bottom left;
+	width: 228px;
+	float: right;
+	display: inline;
+}
+
+#sidebar ul li {
+	font-size: 90%;
+	line-height:140%;
+}
+
+/* the list...also f'ed up in IE PC...damn browser */
+#sidebar ul#pieces{
+	background: transparent;
+	padding:0;
+	margin:0 0 20px 15px;
+	list-style-type:none;
+	width:194px; /* keeps yellow background from going 'outside' the ul */
+}
+
+#sidebar ul#pieces li {
+	font-size: 100%;
+        font-family: "Lucida grande", verdana, arial, helvetica, sans-serif;
+	width:194px;
+	padding: 0;
+	margin:0;
+	vertical-align: bottom; /* this helps fix IE Win line-spacing bug for UL, LI elements 
+	see: http://phonophunk.phreakin.com/articles/ie-fix-for-gaps-between-list-items.php */
+}
+
+#sidebar ul#pieces li a {
+display:block; margin:0; padding:2px 0 2px 20px; font-size: 11px; font-weight: bold; font-family:"lucida grande", verdana, arial, helvetica, sans-serif;text-decoration:none;
+_line-height:125%; /* IE only */
+}
+#sidebar ul#pieces li a:link{padding-left:20px;color: #2e31b3;font-weight:bold;text-decoration:none;display: block;}
+#sidebar ul#pieces li a:visited{color: #2e31b3;font-weight:bold;text-decoration:none;display: block;}
+#sidebar ul#pieces li a:hover{color: #D76733; display: block; background: #f2e10a url("/web/20170325202847im_/https://casperelectronics.com/wp-content/themes/casper/images/lil_casper.gif") 2px 1px no-repeat;}
+#sidebar ul#pieces li a:active{color: #E33120;font-weight:bold;text-decoration:none;display: block;}
+
+
+/* sub-ul's of the pieces list
+--------------------------- */
+#sidebar ul#pieces li ul {
+	background: transparent;
+	padding:0;
+	margin:0 0 0 15px;
+	list-style-type:none;
+	width:194px; /* keeps yellow background from going 'outside' the ul */
+}
+#sidebar ul#pieces li ul li {
+	font-size: 100%;
+        font-family:"Lucida Grande", verdana, arial, helvetica, sans-serif;
+	width:179px;
+	padding: 0;
+	margin:0;
+	vertical-align: bottom; /* this helps fix IE Win line-spacing bug for UL, LI elements 
+	see: http://phonophunk.phreakin.com/articles/ie-fix-for-gaps-between-list-items.php */
+}
+
+
+/* special sidebar graphics */
+#sidebar span.sbtop { /* rounded graphic at the top of the sidenav */
+	background: transparent url("/web/20170325202847im_/https://casperelectronics.com/wp-content/themes/casper/images/sidenav_top.gif") no-repeat top left;
+	display:block; width:228px; height:33px;
+	margin-left:-18px;
+}
+
+#sidebar span.skully { /* skull graphic */
+	background: transparent url("/web/20170325202847im_/https://casperelectronics.com/wp-content/themes/casper/images/skully.gif") no-repeat bottom left;
+	display:block; width:228px; 
+	margin-left:-6px;
+	height:149px;
+	}
+
+#sidebar.finished span.skully { /* skull graphic */
+	margin-left:12px;
+	}
+
+#sidebar.art span.skully { /* skull graphic */
+	margin-left:12px;
+	}
+
+#sidebar.music span.skully { /* skull graphic */
+	margin-left:12px;
+	}
+
+#sidebar span.sbbottom { /* rounded graphic at bottom of the sidenav */
+	background: transparent url("/web/20170325202847im_/https://casperelectronics.com/wp-content/themes/casper/images/sidenav_bottom.gif") no-repeat bottom left;
+	display:block; width:228px; height:35px;
+	margin-left:-18px;
+}
+
+#sidebar.finished span.sbtop, #sidebar.finished span.sbbottom { /* rounded graphic at the top of the sidenav */
+	margin-left:0px;
+}
+
+#sidebar.art span.sbtop, #sidebar.art span.sbbottom { /* rounded graphic at the top of the sidenav */
+	margin-left:0px;
+}
+
+#sidebar.music span.sbtop, #sidebar.music span.sbbottom { /* rounded graphic at the top of the sidenav */
+	margin-left:0px;
+}
+
+
+/* special sidebars */
+#sidebar-plain {
+	margin: 0 0 0 0;
+	padding: 0 4px 0 0;
+	background-color: transparent;
+	width: 218px;
+	float: right;
+}
+
+#sidebar-home {
+	margin-right: 10px;
+	/* Hides from IE-mac \*/
+margin-right: 20px;
+/* End hide from IE-mac */
+	_margin-right: 5px; /* IE PC only */
+	padding-right: 0px;
+	padding-top: 80px;
+	background: transparent url("/web/20170325202847im_/https://casperelectronics.com/wp-content/themes/casper/images/throwin-stars.gif") no-repeat 50% 0;
+	width: 218px;
+	float: right;
+	text-align:left;
+  /*voice-family: "\"}\""; 
+  voice-family:inherit;*/
+  width:208px;
+} 
+html>body div#sidebar-home {
+  width:208px;
+}
+
+
+.throwinstars {
+	background: transparent url("/web/20170325202847im_/https://casperelectronics.com/wp-content/themes/casper/images/throwin-stars.gif") no-repeat 0 20px;
+	display:block; width:203px; height:118px;
+	margin-left:-18px;
+}
+
+#news {
+	padding: 0 0 0 8px;
+}
+
+#sidebar hr {
+	border: 0;
+	width: 100%;
+	color: #B95220;
+	background-color: #B95220;
+	height: 1px;
+	margin: 10px 0;
+	padding: 0;
+}
+
+.newsitem {
+	border-bottom:1px solid #B95220;
+	color: #1C3E81;
+}
+
+.newsitem ul {
+	margin-left:1.5em;
+	padding-left:0;
+}
+
+.newsitem ul li{
+	font-size: 90%;
+}
+
+/* =Searchform styles
+----------------------------- */
+#sidebar #form-container, #sidebar-home #form-container {
+	padding: 0;
+}
+
+#sidebar fieldset, #sidebar-home fieldset {
+	padding: 0px;
+	border: none;
+	}	
+		
+		#sidebar fieldset input, #sidebar fieldset textarea,
+		#sidebar-home fieldset input, #sidebar-home fieldset textarea {
+			border:1px solid #E96225;
+			background:#E5EEF5;
+			width: 120px;
+		}
+		#sidebar fieldset input.searchsubmit,
+		#sidebar-home fieldset input.searchsubmit
+		 {
+			width: 80px;
+		}
+		#sidebar fieldset input:hover, #sidebar fieldset textarea:hover,
+		#sidebar-home fieldset input:hover, #sidebar-home fieldset textarea:hover
+		 {
+			border:1px solid #1C3E81;
+			background:#fff;
+		}
+		#sidebar fieldset input:focus, #sidebar fieldset textarea:focus,
+		#sidebar-home fieldset input:focus, #sidebar-home fieldset textarea:focus
+		 {
+			border:1px solid #991F1F;
+		}
+
+		#sidebar .formfields dl, #sidebar .formfields dt, #sidebar .formfields dd,
+		#sidebar-home .formfields dl, #sidebar-home .formfields dt, #sidebar-home .formfields dd
+		 {
+			margin: 0px;
+			padding: 0px;
+		}
+
+		#sidebar .formfields dt, #sidebar-home .formfields dt {
+			float: left;
+			clear: left;
+			width: 0%;
+			margin: 2px 0 0 0;
+			text-align: left;
+		}	
+
+		#sidebar .formfields dd, #sidebar-home .formfields dd {
+			float: left;
+			margin: 5px 0px 0 0;
+			width: 90%;
+		}
+
+
+
+
+/* keep sidebar links lit on respective pages */
+/* body.amazing-ally div#sidebar ul li#amazing-ally a,
+body.baby-heads div#sidebar ul li#baby-heads a,
+body.speak-n-spell div#sidebar ul li#speak-n-spell a
+{
+	color: #D76733; display: block; background: transparent url("/web/20170325202847im_/https://casperelectronics.com/wp-content/themes/casper/images/lil_casper.gif") 2px 1px no-repeat;
+} */
+
+
+/* END sidebar styles /////////////////////////////////////////////////////////////////////////// */
+
+
+/* =footer ======================================================================================= */
+#footer{
+	clear: both; /* makes sure to place BELOW the lowermost of the content or sidebar divs */
+	position: relative;
+	margin: 0;
+	padding-top: 5px;
+	height:75px;
+	background: transparent url("/web/20170325202847im_/https://casperelectronics.com/wp-content/themes/casper/images/footer_bg_01.gif") no-repeat top left;
+	width: 760px;
+} 
+
+
+#footer ul#textnav{
+	margin: 0;
+}
+#footer p.footernav {
+	margin: 6px 0 0 120px;
+	font-size: 10px;
+        font-family:"Lucida Grande", arial, helvetica, sans-serif;
+	color:#6b4229;
+	line-height: 1.4em;
+}
+#footer a {text-decoration:none;}
+#footer a:link{color: #e1cd1a;}
+#footer a:visited{color: #e1cd1a;}
+#footer a:hover{color: #f0ee27;}
+#footer a:active{color: #e1cd1a;}
+
+#footer ul {display:inline;margin:0;}
+
+a.rss-feed {
+	background: transparent url('/web/20170325202847im_/https://casperelectronics.com/images/feed-icon-12x12.png') 0 50% no-repeat;
+	padding-left:14px;
+}
+
+/* END footer styles /////////////////////////////////////////////////////////////////////////// */
+
+
+
+
+div.row { 
+	/* position: absolute; left: 460px; top: 50px; z-index: 9; */
+	width:100%;
+	padding:0;
+	text-align: right;  
+  	font: bold 14px Times, "Times New Roman", Georgia, serif; 
+  	color: rgb(195,195,195); 
+  	background-color: transparent; 
+  }
+  
+
+
+
+
+
+/* MAIN NAV a la zeldman
+=========================================================================================== */
+div#globalnav	{
+	height: 32px;
+	width: 467px;
+	/* following two lines added by me */
+	position:relative;
+	left:34px;
+	top:17px;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	background: transparent;
+}
+
+div#globalnav ul#menunav {
+	height: 32px;
+	width: 395px;
+	background: transparent url(/web/20170325202847im_/https://casperelectronics.com/wp-content/themes/casper/images/casper_mainnav2.gif) top left no-repeat;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+
+div#globalnav ul#menunav li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	position: absolute;
+	top: 0;
+}
+	
+ul#menunav li, ul#menunav a {
+	height: 32px;
+	display: block;
+	text-indent: -9999px;
+}
+	
+div#globalnav ul#menunav li a {
+	text-indent: -9999px;
+	text-decoration: none;
+}
+
+div#globalnav a {text-indent: -9999px;}
+	
+#menunav-home {left: 0; width: 60px;}
+#menunav-about {left: 61px; width: 64px;}
+#menunav-finished {left: 125px; width: 168px;}
+#menunav-art {left: 293px; width: 42px;}
+#menunav-music {left: 335px; width: 60px;}
+/*#menunav-press {left: 332px; width: 57px;}*/
+/*#menunav-pics {left: 192px; width: 77px;}*/
+/*#menunav-contact {left: 390px; width: 77px;}*/
+
+#menunav-home a:hover {background: transparent url('/web/20170325202847im_/https://casperelectronics.com/wp-content/themes/casper/images/casper_mainnav2.gif') 0 -32px no-repeat;}
+#menunav-about a:hover {background: transparent url('/web/20170325202847im_/https://casperelectronics.com/wp-content/themes/casper/images/casper_mainnav2.gif') -61px -32px no-repeat;}
+#menunav-finished a:hover {background: transparent url('/web/20170325202847im_/https://casperelectronics.com/wp-content/themes/casper/images/casper_mainnav2.gif') -125px -32px no-repeat;}
+#menunav-art a:hover {background: transparent url('/web/20170325202847im_/https://casperelectronics.com/wp-content/themes/casper/images/casper_mainnav2.gif') -293px -32px no-repeat;}
+#menunav-music a:hover {background: transparent url('/web/20170325202847im_/https://casperelectronics.com/wp-content/themes/casper/images/casper_mainnav2.gif') -335px -32px no-repeat;}
+/*#menunav-pics a:hover {background: transparent url('/web/20170325202847im_/https://casperelectronics.com/wp-content/themes/casper/images/casper_mainnav.gif') -192px -32px no-repeat;}
+#menunav-press a:hover {background: transparent url('/web/20170325202847im_/https://casperelectronics.com/wp-content/themes/casper/images/casper_mainnav.gif') -332px -32px no-repeat;}
+#menunav-contact a:hover {background: transparent url('/web/20170325202847im_/https://casperelectronics.com/wp-content/themes/casper/images/casper_mainnav.gif') -390px -32px no-repeat;}*/
+
+body#home #menunav-home {background: transparent url('/web/20170325202847im_/https://casperelectronics.com/wp-content/themes/casper/images/casper_mainnav2.gif') 0 -32px no-repeat;}
+body#about #menunav-about {background: transparent url('/web/20170325202847im_/https://casperelectronics.com/wp-content/themes/casper/images/casper_mainnav2.gif') -61px -32px no-repeat;}
+body#finished #menunav-finished {background: transparent url('/web/20170325202847im_/https://casperelectronics.com/wp-content/themes/casper/images/casper_mainnav2.gif') -125px -32px no-repeat;}
+body#art #menunav-art {background: transparent url('/web/20170325202847im_/https://casperelectronics.com/wp-content/themes/casper/images/casper_mainnav2.gif') -293px -32px no-repeat;}
+bodym#music #menunav-music {background: transparent url('/web/20170325202847im_/https://casperelectronics.com/wp-content/themes/casper/images/casper_mainnav2.gif') -335px -32px no-repeat;}
+/*body#pics #menunav-pics {background: transparent url('/web/20170325202847im_/https://casperelectronics.com/wp-content/themes/casper/images/casper_mainnav.gif') -192px -32px no-repeat;}
+body#press #menunav-press {background: transparent url('/web/20170325202847im_/https://casperelectronics.com/wp-content/themes/casper/images/casper_mainnav.gif') -332px -32px no-repeat;}
+body#contact #menunav-contact {background: transparent url('/web/20170325202847im_/https://casperelectronics.com/wp-content/themes/casper/images/casper_mainnav.gif') -390px -32px no-repeat;}*/
+
+/* END main nav ////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+/* For Sale button (added 4/23/2008) */
+div#saleButton	{
+	height: 32px;
+	width: 172px;
+	/* following two lines added by me */
+	position:absolute;
+	right:34px;
+	top:17px;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	background: transparent;
+	}
+
+div#saleButton a {
+	height: 32px;
+	width: 172px;
+	background: transparent url(/web/20170325202847im_/https://casperelectronics.com/wp-content/themes/casper/images/button_forsale.gif) top left no-repeat;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	display: block;
+	text-indent: -9999px;
+	}
+
+div#saleButton a:hover {background-position: 0 -32px;}
+
+
+/* keep current link on - not currently used */
+body#finished #sidebar a.on {color: #D76733;display: block;background: #f2e10a url("/web/20170325202847im_/https://casperelectronics.com/wp-content/themes/casper/images/lil_casper.gif") 2px 1px no-repeat;}
+
+.centered {margin-left:auto;margin-right:auto;}
+
+
+
+
+/* H1 text replacement styles ======================================================================================= */
+h2.title-contact {text-indent:-9999px;background: transparent url("/web/20170325202847im_/https://casperelectronics.com/wp-content/themes/casper/images/title_contact.gif") 0 0 no-repeat;height:40px;}
+h2.title-about {text-indent:-9999px;background: transparent url("/web/20170325202847im_/https://casperelectronics.com/wp-content/themes/casper/images/title_about.gif") 0 0 no-repeat;height:43px;}
+h2.title-press {text-indent:-9999px;background: transparent url("/web/20170325202847im_/https://casperelectronics.com/wp-content/themes/casper/images/title_press.gif") 0 0 no-repeat;height:35px;}
+h2.title-finished {display: none;}
+h2.title-pics {text-indent:-9999px;background: transparent url("/web/20170325202847im_/https://casperelectronics.com/wp-content/themes/casper/images/title_pics.gif") 0 0 no-repeat;height:43px;}
+h2.title-welcome {text-indent:-9999px;background: transparent url("/web/20170325202847im_/https://casperelectronics.com/wp-content/themes/casper/images/title_welcome.gif") 0 0 no-repeat;height:42px;}
+h2.title-art {display: none;}
+h2.title-music {display: none;}
+
+
+.caption {display:block;font:9px Verdana, Arial, Helvetica, sans-serif; color:#333; margin-bottom:1em;}
+
+/* picture gallery area */
+#photos-nav {
+	margin:1em 0 .5em 0;
+	text-align:center;	
+}
+
+.description {
+	font-size: 10px;
+	font-weight: bold;
+	text-align: center;
+	color: #666;
+}
+.copyright {
+	font-size: 9px;
+	color: #797983;
+   text-align: center;
+}
+
+div#credit {
+	background: transparent url("/web/20170325202847im_/https://casperelectronics.com/wp-content/themes/casper/images/masuga_credit.gif") no-repeat top left;
+	position:absolute;
+	height:12px;
+	width: 68px;
+	left: 520px;
+	top:27px;
+}
+div#credit a {text-indent: -9999px; display:block; height:12px; color:#999;}
+
+/* press page styles
+====================================== */
+.pressitem {
+	margin: 0 0 1.25em 0;
+	padding: 0 0 .25em 0;
+	border-bottom:1px solid #dadada;
+	display:block;
+	width:100%;
+}
+
+.smokey {display: block;
+	width:80px;
+	margin:2px auto;
+	}
+	
+.footnote, div.pressitem .footnote, .piccaption, #sidebar-home .piccaption {
+	font-size: 9px;
+}
+
+#sidebar-home .piccaption {
+	color: #333;
+}
+
+
+
+.saleitem {
+	margin-right:8px;
+	margin-bottom:12px;
+	width:150px;
+	float:left;
+}
+
+/* LIGHTBOX styles
+====================================== */
+#lightbox{
+	position: absolute;
+	top: 40px;
+	left: 0;
+	width: 100%;
+	z-index: 100;
+	text-align: center;
+	line-height: 0;
+	}
+
+#lightbox a img{ border: none; }
+
+#outerImageContainer{
+	position: relative;
+	background-color: #fff;
+	width: 250px;
+	height: 250px;
+	margin: 0 auto;
+	}
+
+#imageContainer{
+	padding: 10px;
+	}
+
+#loading{
+	position: absolute;
+	top: 40%;
+	left: 0%;
+	height: 25%;
+	width: 100%;
+	text-align: center;
+	line-height: 0;
+	}
+#hoverNav{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 10;
+	}
+#imageContainer>#hoverNav{ left: 0;}
+#hoverNav a{ outline: none;}
+
+#prevLink, #nextLink{
+	width: 49%;
+	height: 100%;
+	background: transparent url('/web/20170325202847im_/https://casperelectronics.com/wp-content/themes/casper/images/blank.gif') no-repeat; /* Trick IE into showing hover */
+	display: block;
+	}
+#prevLink { left: 0; float: left;}
+#nextLink { right: 0; float: right;}
+#prevLink:hover, #prevLink:visited:hover { background: url(/web/20170325202847im_/https://casperelectronics.com/wp-content/themes/images/prevlabel.gif) left 15% no-repeat; }
+#nextLink:hover, #nextLink:visited:hover { background: url(/web/20170325202847im_/https://casperelectronics.com/wp-content/themes/images/nextlabel.gif) right 15% no-repeat; }
+
+
+#imageDataContainer{
+	font: 10px Verdana, Helvetica, sans-serif;
+	background-color: #fff;
+	margin: 0 auto;
+	line-height: 1.4em;
+	}
+
+#imageData{
+	padding:0 10px;
+	}
+#imageData #imageDetails{ width: 70%; float: left; text-align: left; }	
+#imageData #caption{ font-weight: bold;	}
+#imageData #numberDisplay{ display: block; clear: left; padding-bottom: 1.0em;	}			
+#imageData #bottomNavClose{ width: 66px; float: right;  padding-bottom: 0.7em;	}	
+		
+#overlay{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 90;
+	width: 100%;
+	height: 500px;
+	background-color: #000;
+        opacity: 0.6;
+	/*filter:alpha(opacity=60);
+	-moz-opacity: 0.6;*/
+	opacity: 0.6;
+	}
+	
+
+.clearfix:after {
+	content: "."; 
+	display: block; 
+	height: 0; 
+	clear: both; 
+	visibility: hidden;
+	}
+
+* html>body .clearfix {
+	display: inline-block; 
+	width: 100%;
+	}
+
+* html .clearfix {
+	/* Hides from IE-mac \*/
+	height: 1%;
+	/* End hide from IE-mac */
+	}	
+	
+/*
+     FILE ARCHIVED ON 20:28:47 Mar 25, 2017 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 22:21:41 Jun 14, 2020.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  xauthn.chkprivs: 0.039
+  PetaboxLoader3.datanode: 1485.802 (4)
+  CDXLines.iter: 19.537 (3)
+  esindex: 0.011
+  PetaboxLoader3.resolve: 195.322
+  exclusion.robots.policy: 304.682
+  RedisCDXSource: 43.023
+  load_resource: 397.053
+  LoadShardBlock: 1994.248 (3)
+  xauthn.identify: 304.36
+  exclusion.robots: 304.693
+  captures_list: 2365.86
+*/
