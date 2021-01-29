@@ -28,11 +28,11 @@ Connections to the board:
 
 ![](connect.png)
 
-1 LEDs
-2 +9V and return side of speaker
-3 Send side of speaker
-4 0V and return side of mic
-5 Send side of mic
+1. LEDs
+2. +9V and return side of speaker
+3. Send side of speaker
+4. 0V and return side of mic
+5. Send side of mic
 (The speaker connects to the LM386 output and the +9V rail. I replaced with output connections to the LM386 output and the ground rail.)
 
 Toggle switches are the five sets of three connections across the middle: Bottom on each is ground and top two connect to the sound chip.
