@@ -1754,6 +1754,72 @@ FQVC8fk/oWYXlaN/H3wAAAAASUVORK5CYII=</data>
       <verticalAlignment>CENTER</verticalAlignment>
       <orientation>DEFAULT</orientation>
     </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>L13</name>
+      <point x="6.45" y="5.45"/>
+      <text>This layout is intended to be used with one of my prototyping boards</text>
+      <font name="Dialog.plain" size="14" style="0"/>
+      <color hex="000000"/>
+      <center>false</center>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>L14</name>
+      <point x="6.55" y="5.6"/>
+      <text>https://github.com/holmesrichards/Protoboard</text>
+      <font reference="../../diylc.misc.Label[14]/font"/>
+      <color hex="000000"/>
+      <center>false</center>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>L15</name>
+      <point x="8.45" y="4.7"/>
+      <text>Euro power header  1</text>
+      <font reference="../../diylc.misc.Label[14]/font"/>
+      <color hex="000000"/>
+      <center>false</center>
+      <horizontalAlignment>LEFT</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>L16</name>
+      <point x="8.45" y="4.8"/>
+      <text>1N5817 (or 10R or whatever)  2</text>
+      <font name="Dialog.plain" size="14" style="0"/>
+      <color hex="000000"/>
+      <center>false</center>
+      <horizontalAlignment>LEFT</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>L17</name>
+      <point x="8.45" y="4.9"/>
+      <text>10 uF caps  2</text>
+      <font name="Dialog.plain" size="14" style="0"/>
+      <color hex="000000"/>
+      <center>false</center>
+      <horizontalAlignment>LEFT</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>L19</name>
+      <point x="6.55" y="5.75"/>
+      <text>Power connection components not shown here</text>
+      <font name="Dialog.plain" size="14" style="0"/>
+      <color hex="000000"/>
+      <center>false</center>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
   </components>
   <groups/>
   <lockedLayers/>
