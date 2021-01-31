@@ -47,4 +47,4 @@ Added circuitry laid out for using one of my [prototyping boards](https://github
 
 ![](megaphone.png) 
 
-Block at left with LED and resistor is vactrol. Blocks at right center are Molex connectors for panel components (not listed, but shown in schematic). Long horizontal rectangles just indicate power rails, top and bottom, and unused rails, center.
+Block at left with LED and resistor is vactrol. Blocks at right center are Molex connectors for panel components.
